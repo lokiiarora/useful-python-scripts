@@ -1,0 +1,4 @@
+.vscode/
+.idea/
+client.secret.json
+google-sheets-to-hosted-db/client.secret.json
