@@ -5,6 +5,11 @@ from datetime import datetime
 import time
 from apscheduler.schedulers.blocking import BlockingScheduler
 
+# TODO:
+# 1. Treat errors more gracefully
+# 2. Error handling
+# End
+
 def constructMessage(price):
     timestamp= float(time.time())
     totalStamp= datetime.fromtimestamp(timestamp)
